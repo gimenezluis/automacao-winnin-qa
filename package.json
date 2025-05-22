@@ -1,0 +1,29 @@
+{
+  "name": "automacao-winnin-qa",
+  "version": "1.0.0",
+  "description": "Desafio Quality Assurance",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimenezluis/automacao-winnin-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimenezluis/automacao-winnin-qa/issues"
+  },
+  "homepage": "https://github.com/gimenezluis/automacao-winnin-qa#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  },
+  "scripts": {
+    "test": "npx cucumber-js",
+    "test:report": "npx cucumber-js --format @cucumber/html-formatter --format-options \"{\\\"output\\\": \\\"html-report\\\"}\""
+  },
+  "devDependencies": {
+    "@cucumber/html-formatter": "^21.10.1"
+  }
+}

@@ -1,0 +1,12 @@
+# Ignorar dependências
+node_modules/
+package-lock.json
+
+# Relatórios temporários
+report/
+html-report/
+report.html
+
+# Ambiente local
+.env
+.DS_Store
